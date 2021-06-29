@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical">
+
+    <com.makeramen.roundedimageview.RoundedImageView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:id="@+id/imageSlider"
+        app:riv_corner_radius_bottom_left="12dp"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/sliderDescript"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="@string/descript"
+        android:layout_margin="10dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/teal_200"
+        android:layout_gravity="center"
+        android:fontFamily="@font/gess" />
+
+</LinearLayout>

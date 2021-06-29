@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">العاصمة الادارية الجديدة</string>
+    <string name="fab_home">Home page</string>
+    <string name="fab_album">Album page</string>
+    <string name="fab_videos">Videos page</string>
+    <string name="fab_contact_us">Contact us page</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="descript">image descript here</string>
+
+    <string name="home_quote_title">مرحبا بكم فى العاصمه الادرايه الجديده</string>
+    <string name="home_quote_body1">العاصمة الإدارية الجديدة هي مشروع واسع النطاق لعاصمة جديدة في مصر والتي كانت قيد الإنشاء منذ عام 2015. وقد أعلن عنها وزير الإسكان المصري آنذاك مصطفى مدبولي في مؤتمر التنمية الاقتصادية في مصر في 13 مارس 2015</string>
+    <string name="home_quote_body2">من أجل تطوير القاهرة إلى مركز سياسي وثقافي واقتصادي رائد لمنطقة الشرق الأوسط وشمال إفريقيا من خلال بيئة اقتصادية مزدهرة تدعمها الأنشطة الاقتصادية المتنوعة وتحقيق التنمية المستدامة لضمان الحفاظ على الأصول التاريخية والطبيعية المميزة التي تمتلكها القاهرة، وتسهيل المعيشة فيها من خلال بنية تحتية تتميز بالكفاءة ، تم البدء في إنشاء العاصمة الإدارية شرق مدينة القاهرة وذلك لموقعها المتميز وقربها من منطقة قناة السويس والطرق الإقليمية والمحاور الرئيسية ويبلغ عدد السكان المستهدف خلال المرحلة الأولى حوالى 0.5 مليون نسمة بالإضافة إلى عدد 40 إلى 50 ألف موظف حكومي يتم نقلهم بالمقرات الجديدة، مع التخطيط لزيادة الطاقة الاستيعابية إلى 100 ألف موظف بعد الثلاثة أعوام الأولى.</string>
+
+    <string name="contact_us_quote_title">يسعدنا زيارتكم</string>
+    <string name="contact_us_quote_body">نتشرف بزيارتكم الى ارض الواقع ومشاهده هذا الارث بانفسكم لنعلم ان الحضاره مازلت مستمره</string>
+</resources>

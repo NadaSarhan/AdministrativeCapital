@@ -8,6 +8,8 @@ import androidx.core.view.GravityCompat;
 import androidx.core.view.ViewCompat;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.res.Configuration;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.MenuItem;
@@ -18,6 +20,8 @@ import com.google.android.material.navigation.NavigationView;
 import com.nada.administrativecapital.fragments.AlbumFragment;
 import com.nada.administrativecapital.fragments.ContactUsFragment;
 import com.nada.administrativecapital.fragments.HomeFragment;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -34,17 +38,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
         drawerLayout = findViewById(R.id.drawer_layout);
 
-//        // to make navigation open from right side.
-//        ViewCompat.setLayoutDirection(toolbar, ViewCompat.LAYOUT_DIRECTION_RTL);
-//        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if (drawerLayout.isDrawerOpen(Gravity.RIGHT))
-//                    drawerLayout.closeDrawer(Gravity.RIGHT);
-//                else
-//                    drawerLayout.openDrawer(Gravity.RIGHT);
-//            }
-//        });
+        // to make navigation open from right side.
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+            getWindow().getDecorView().setLayoutDirection(View.LAYOUT_DIRECTION_RTL);
+        }
 
         NavigationView navigationView = findViewById(R.id.nav_view);
         navigationView.setNavigationItemSelectedListener(this);

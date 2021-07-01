@@ -61,21 +61,18 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
         switch (item.getItemId()) {
 
             case R.id.nav_home: {
-                Toast.makeText(this, "Home", Toast.LENGTH_SHORT).show();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new HomeFragment()).commit();
                 break;
             }
 
             case R.id.nav_album: {
-                Toast.makeText(this, "Album", Toast.LENGTH_SHORT).show();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new AlbumFragment()).commit();
                 break;
             }
 
             case R.id.nav_contact_us: {
-                Toast.makeText(this, "Contact us", Toast.LENGTH_SHORT).show();
                 getSupportFragmentManager().beginTransaction().replace(R.id.fragment_container,
                         new ContactUsFragment()).commit();
                 break;
